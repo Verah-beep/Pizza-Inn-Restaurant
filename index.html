@@ -74,32 +74,72 @@
   <div class="cards">
     <a href="pizzacrust.html">
       <div class="card">
-        <img src="Images/pizcrust.jpeg"
-          alt="crust" width="300px" height="250">
+        <img src="Images/pizcrust.jpeg" alt="crust" width="300px" height="250">
         <div class="container"></div>
-          <h4><b>Pizza Crust</b></h4>
-        </div>
+        <h4><b>Pizza Crust</b></h4>
       </div>
-    </a>
-    <a href="toppings.html">
+  </div>
+  </a>
+  <a href="toppings.html">
+    <div class="card">
+      <img src="Images/pizzatop.jpg" alt="toppings" width="300px" height="250">
+      <div class="container">
+        <h4><b>Pizza Toppings</b></h4>
+      </div>
+    </div>
+  </a>
+  <div class="cards">
+    <a href="pizzasize.html">
       <div class="card">
-        <img src="Images/pizzatop.jpg" alt="toppings"
-          width="300px" height="250">
+        <img src="Images/pizsize.jpeg" alt="size" width="300px" height="250">
         <div class="container">
-          <h4><b>Pizza Toppings</b></h4>
+          <h4><b>Pizza Sizes</b></h4>
         </div>
       </div>
     </a>
-    <div class="cards">
-      <a href="pizzasize.html">
-        <div class="card">
-          <img src="Images/pizsize.jpeg"
-            alt="size" width="300px" height="250">
-          <div class="container">
-            <h4><b>Pizza Sizes</b></h4>
+    <div class="comment">
+      <h1>Hey,Pizzamate Let Me Help You Order.</h1>
+    </div><br><br>
+    <div class="box-sizing">
+      <form action="action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="crust">Crust:</label>
+          </div>
+          <div class="col-75">
+            <select name="form-control" id="crust" onselect="crust();" class="">
+              <option value="200" id="crispy" class="btn-primary">Crispy 200</option>
+              <option value="200" id="stuffed" class="btn-primary">Stuffed 200 </option>
+              <option value="200" id="gluten-free" class="btn-primary">Gluten-free 200</option>
+            </select>
           </div>
         </div>
-      </a>
+        <div class="row">
+          <div class="col-25">
+            <label for="topping">Topping:</label>
+          </div>
+          <div class="col-75">
+            <select name="form-control" id="topping" class="">
+              <option value="150" id="pepperoni" onselect="getPepperoni();" class="btn-primary">Pepperoni</option>
+              <option value="150" id="mushrooms" onselect="getMushrooms();" class="btn-primary">Mushrooms</option>
+              <option value="150" id="onions" onselect="getOnions();" class="btn-primary">Onions</option>
+              <option value="150" id="sausage" onselect="getSausage();" class="btn-primary">Sausage</option>
+              <option value="150" id="bacon" onselect="getBacon();" class="btn-primary">Bacon</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="size">Size</label>
+          </div>
+          <div class="col-75">
+            <select name="form-control" id="size" onselect="size();" class="">
+              <option value="250" id="small" class="btn-primary">Small - 350/-</option>
+              <option value="550" id="medium" class="btn-primary">Medium - 650/-</option>
+              <option value="850" id="large" class="btn-primary">Large - 950/-</option>
+            </select>
+          </div>
+        </div>
 </body>
 
 </html>
