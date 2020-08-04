@@ -140,6 +140,25 @@
             </select>
           </div>
         </div>
+        <div class="col-md-6">
+          <div class="quantity">
+            <div class="value">
+              <h4> How many pizza do you want?</h4>
+              <select class="browser-default custom-select" id="getnumber" onselect="getNumber();">
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <br>
+            <button type="button" id="takeorder" class="btn btn-info" onclick="calculate();">ORDER</button>
 </body>
 
 </html>
