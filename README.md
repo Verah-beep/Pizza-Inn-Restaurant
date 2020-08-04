@@ -3,7 +3,7 @@ PIZZA INN
 # Author
 Vera Auma
 # Project Description
-This is a website that enable pizza customers to order pizza also look at the amount and choose the nimber of pizza to be delivered and decide whether the pizza to be delivered or not.
+This is a website that enable pizza customers to order pizza also look at the amount and choose the number of pizza to be delivered and decide whether the pizza to be delivered or not.
 # BDD
 To view the website
  1: clone this repo :git clone(). 
