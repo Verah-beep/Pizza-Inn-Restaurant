@@ -1,0 +1,11 @@
+.jumbotron{
+    color: white;
+    background-color: red;
+}
+#jumbotron1{
+    height: 150px;
+}
+#jumbotron2{
+    height: 50px;
+    text-align: center;
+}
